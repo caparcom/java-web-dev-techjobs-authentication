@@ -23,7 +23,7 @@ public class AuthenticationFilter implements HandlerInterceptor {
 
     private static final List<String> whitelist = Arrays.asList("/login", "/register", "/resources/**");
 
-    //I tried so hard to figure out how to access my styling using
+    //I tried so hard to figure out how to access my styling
     @Override
     public boolean preHandle(HttpServletRequest request,
                              HttpServletResponse response,
